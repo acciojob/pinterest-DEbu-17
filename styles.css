@@ -1,1 +1,35 @@
 /*  your css code here. If applicable */
+img{
+	height:200px;
+	width:400px;
+	object-fit:cover;
+}
+.hero{
+	display:flex;
+}
+h1{
+	font-size:20px;
+}
+.content-section{
+	
+	display:flex;
+	flex-direction:column;
+	border:1px solid black;
+	justify-content:center;
+	align-items:center;
+	height:200px;
+	width:200px
+	
+h1{
+	text-align:center;
+}
+p{
+	font-size:10px;
+	text-align:center;
+	}
+button{
+	padding:10px;
+	border:none;
+	background-color:#ff0000;
+	color:white;
+}
